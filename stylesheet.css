@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: black;
+  font-family: Helvetica;
+}
+
+nav {
+  border: solid 1px;
+  width: 100%;
+  background: #E85D26;
+  min-height: 50px;
+  display: flex;
+  margin-right: 20px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+nav a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:visited {
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: lightgray;
+  background: #E85D26;
+}
+
+.name {
+  color: white;
+  padding-left: 20px;
+  font-weight: lighter;
+}
+
+.space {
+  flex: 4;
+}
+
+.menu {
+  flex: 1;
+  padding-top: 3px;
+}
+
+.container_one {
+  margin-top: 80px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: solid 1px;
+  border-color: #E85D26;
+  padding: 20px;
+  background-color: white;
+}
+
+h1, h2 {
+  font-weight: bold;
+  letter-spacing: .5px;
+}
+
+.about_me {
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: .5px;
+  line-height: 1.5;
+
+}
+
+.container_two {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: solid 1px;
+  border-color: #E85D26;
+  padding: 20px;
+  background-color: white;
+}
+
+.media {
+  /* position: absolute; */
+}
+
+.social {
+  list-style: none;
+  /* margin: 10px 30px; */
+  display: inline-block;
+  font-size: 20px;
+  padding: 5px 20px;
+  color: black;
+  /* border: 1px solid black; */
+  /* border-radius: 50%; */
+  /* transition: .5s; */
+}
+
+.img_pj {
+  float: right;
+  padding-top: 20px;
+  padding-left: 30px;
+  max-width: 30%;
+  height: auto;
+}
+
+.badges {
+  padding-top: 20px;
+  width: 150px;
+  height: auto;
+}
+
+.container_three {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: solid 1px;
+  border-color: #E85D26;
+  padding: 20px;
+  background-color: white;
+}
+
+.portfolio_parent {
+  display: flex;
+  min-height: 200px;
+  padding-top: 15px;
+}
+
+.portfolio_child {
+  border: solid 1px;
+  flex: 1;
+  min-height: 200px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.port_image {
+  width: 200px;
+  height: auto;
+  border: solid 2px;
+
+}
+
+.port_title {
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline;
+  padding-top: 15px;
+
+}
+
+.port_desc {
+  font-style: italic;
+  padding: 15px;
+}
+
+footer {
+  /* border: solid 1px; */
+  width: 100%;
+  background: #E85D26;
+  min-height: 50px;
+  display: flex;
+  margin-right: 20px;
+}
+
+.footer_menu {
+  flex: 1;
+  color: white;
+}
