@@ -5,13 +5,13 @@
 body {
   margin: 0;
   background: black;
-  font-family: Helvetica;
+  font-family: Helvetica, sans-serif;
 }
 
 nav {
   border: solid 1px;
   width: 100%;
-  background: #E85D26;
+  background: #e85d26;
   min-height: 50px;
   display: flex;
   margin-right: 20px;
@@ -20,7 +20,7 @@ nav {
 .sticky {
   position: fixed;
   top: 0;
-  width: 100%
+  width: 100%;
 }
 
 nav a {
@@ -36,7 +36,7 @@ nav a:visited {
 
 nav a:hover {
   color: lightgray;
-  background: #E85D26;
+  background: #e85d26;
 }
 
 .name {
@@ -59,7 +59,7 @@ nav a:hover {
   margin-left: 20px;
   margin-right: 20px;
   border: solid 1px;
-  border-color: #E85D26;
+  border-color: #e85d26;
   padding: 20px;
   background-color: white;
 }
@@ -69,12 +69,15 @@ h1, h2 {
   letter-spacing: .5px;
 }
 
+.image-wrapper {
+  text-align: center;
+}
+
 .about_me {
   font-weight: bold;
   font-size: 16px;
   letter-spacing: .5px;
   line-height: 1.5;
-
 }
 
 .container_two {
@@ -82,7 +85,7 @@ h1, h2 {
   margin-left: 20px;
   margin-right: 20px;
   border: solid 1px;
-  border-color: #E85D26;
+  border-color: #e85d26;
   padding: 20px;
   background-color: white;
 }
@@ -104,11 +107,7 @@ h1, h2 {
 }
 
 .img_pj {
-  float: right;
-  padding-top: 20px;
-  padding-left: 30px;
-  max-width: 30%;
-  height: auto;
+
 }
 
 .badges {
@@ -123,23 +122,25 @@ h1, h2 {
   margin-right: 20px;
   margin-bottom: 20px;
   border: solid 1px;
-  border-color: #E85D26;
+  border-color: #e85d26;
   padding: 20px;
   background-color: white;
 }
 
 .portfolio_parent {
-  display: flex;
+  text-align: center;
   min-height: 200px;
   padding-top: 15px;
 }
 
 .portfolio_child {
   border: solid 1px;
-  flex: 1;
   min-height: 200px;
+  width: 300px;
   text-align: center;
   padding-top: 15px;
+  margin: 10px;
+  display: inline-block;
 }
 
 .port_image {
@@ -165,13 +166,13 @@ h1, h2 {
 footer {
   /* border: solid 1px; */
   width: 100%;
-  background: #E85D26;
+  background: #e85d26;
   min-height: 50px;
-  display: flex;
-  margin-right: 20px;
+  text-align: center;
 }
 
 .footer_menu {
   flex: 1;
   color: white;
+  padding-top: 1px;
 }
